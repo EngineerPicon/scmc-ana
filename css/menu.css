@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    margin: 10px;
+    width: 900px;
+    font-family:Arial, Arial, Helvetica, sans-serif;
+}
+/*para las vistas*/
+ul, ol {
+    list-style: none;
+}
+/* Damos los estilos a nuestro menu*/
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li ul {
+    display: none;
+    position:absolute;
+    min-width: 240px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+/*Desarrollado por Ana Angel - derechos reservados 2022*/

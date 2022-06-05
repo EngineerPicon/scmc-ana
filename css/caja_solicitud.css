@@ -1,0 +1,11 @@
+#contenedor {
+    display: flex;
+    width: 600px;
+}
+#caja1{
+    flex: 1;
+}
+#caja2{
+    flex: 1;
+}
+/*Desarrollado por Ana Angel - derechos reservados 2022*/
